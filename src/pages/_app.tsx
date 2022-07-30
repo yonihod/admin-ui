@@ -4,13 +4,16 @@ import type { AppRouter } from "../server/router";
 import type { AppType } from "next/dist/shared/lib/utils";
 import superjson from "superjson";
 import "../styles/globals.css";
+import Layout from "@/components/layout/layout";
 
 const MyApp: AppType = ({
   Component,
   pageProps: { session, ...pageProps },
 }) => {
   return (
+    <Layout>
       <Component {...pageProps} />
+    </Layout>
   );
 };
 

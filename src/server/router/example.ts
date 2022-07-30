@@ -18,7 +18,7 @@ const spaceSchema = z.array(
     name: z.string(),
   }).nullish(),
   provider: z.object({
-    vendor: z.string(),
+    vendor: z.enum(["AWS", "GCP", "AZURE"]),
   }),
 }));
 

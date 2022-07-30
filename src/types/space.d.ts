@@ -9,7 +9,7 @@ export interface Space {
   }
   
   export interface Provider {
-    vendor: string;
+    vendor: "AWS" | "GCP" | "AZURE";
   }
   
   export interface Createdby {

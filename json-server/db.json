@@ -61,8 +61,579 @@
           }
         }
     ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+    "apps": [
+      {
+        "id": "62c6d4b92239f3cad97b59d5",
+        "name": "logistic-cycle",
+        "version": "1.0.18",
+        "title": "Logistic Cycle",
+        "subtitle": "Track logistic cycle",
+        "description": "Interactively explore and understand container movements throughout history. Drill down to specific Geotracks, movement types and date ranges. Automatically be notified on data drifts, anomalies and business insights.",
+        "vendor": "ZIM",
+        "icon": "static/img/zim.png",
+        "color": "#202a5f",
+        "link": null,
+        "tags": {
+          "note": "deployed via zip",
+          "note1": "changed agg. MAPE",
+          "sdk": "0.0.1"
+        },
+        "config": {
+          "!prediction-data": "",
+          "geo-features": "",
+          "geo-areas": ""
+        },
+        "deployed": "2022-07-07T12:42:33.711000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5872239f3cad97b59d6",
+        "name": "noisy-labels",
+        "version": "1.0.1",
+        "title": "Noisy labels",
+        "subtitle": "Error Driven Data Science",
+        "description": "This widget presents the data scientists' samples that are likely to be classified incorrectly. In many cases, this can be attributed to incorrect labeling. A data scientist may be able to obtain insight into which features or data are lacking in the input space by performing this analysis.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#fcfcfc",
+        "link": "modules/EDDS/1.0.1/www/docs/identification.html#module-src.suggest_noisy_label_samples",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Identification",
+          "type": "Bottom-up EDDS widget",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:45:59.081000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5872239f3cad97b59d7",
+        "name": "fragile-samples",
+        "version": "1.0.1",
+        "title": "Fragile samples",
+        "subtitle": "Error Driven Data Science",
+        "description": "This EDDS widget displays the data scientists' sensitive samples that, given a slight change in the input space, are likely to produce different results. With such an analysis, the data scientist is able to assess the stability of a model as well as identify possible root causes for inconsistent results.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#2553a2",
+        "link": "/modules/EDDS/1.0.1/www/docs/identification.html#module-0",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Identification",
+          "type": "Bottom-up EDDS widget",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:45:59.251000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5872239f3cad97b59d8",
+        "name": "leakage-identifiers",
+        "version": "1.0.1",
+        "title": "Leakage identifiers",
+        "subtitle": "Error Driven Data Science",
+        "description": "Indicates potential leakage features to the dependent variable.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#c7380f",
+        "link": "/modules/EDDS/1.0.1/www/docs/",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Identification",
+          "type": "Top-down EDDS widget",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:45:59.425000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5872239f3cad97b59d9",
+        "name": "partial-dependence",
+        "version": "1.0.1",
+        "title": "Partial dependence",
+        "subtitle": "Error Driven Data Science",
+        "description": "Characterization of each variable's responsive range in relation to others. Depending on the relation between the variables, one might be able to determine which models will perform better in a given situation.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#8b8661",
+        "link": "/modules/EDDS/1.0.1/www/docs/",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Identification",
+          "type": "Top-down EDDS widget",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:45:59.594000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5872239f3cad97b59da",
+        "name": "similar-examples",
+        "version": "1.0.1",
+        "title": "Similar examples",
+        "subtitle": "Error Driven Data Science",
+        "description": "Displays examples similar to those in a given sample. Allows the user to identify common patterns between similar samples.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#11d1d3",
+        "link": "/modules/EDDS/1.0.1/www/docs/identification.html#module-src.similarity_between_sample_matrix_rows",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Identification",
+          "type": "Bottom-up EDDS widget",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:45:59.762000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5872239f3cad97b59db",
+        "name": "shap",
+        "version": "1.0.1",
+        "title": "SHAP",
+        "subtitle": "Error Driven Data Science",
+        "description": "Displays the local explainability of a given prediction. Allows for error detection, root cause analysis, and debugging of the model.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#46c0f2",
+        "link": "/modules/EDDS/1.0.1/www/docs/",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Identification",
+          "type": "Bottom-up and Top-down widget",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:45:59.931000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5882239f3cad97b59dc",
+        "name": "error-clustering",
+        "version": "1.0.1",
+        "title": "Error clustering",
+        "subtitle": "Error Driven Data Science",
+        "description": "Group samples with similar errors to help determine the source of the errors.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#9f1627",
+        "link": "/modules/EDDS/1.0.1/www/docs/",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Identification",
+          "type": "Bottom-up EDDS widget",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:46:00.100000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5882239f3cad97b59dd",
+        "name": "id-by-ensemble-disagreement",
+        "version": "1.0.1",
+        "title": "ID by ensemble disagreement",
+        "subtitle": "Error Driven Data Science",
+        "description": "Disagreement between different models. This analysis might provide insight into the cause of an error: the data, the model, or the labeling.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#1a9d6e",
+        "link": "/modules/EDDS/1.0.1/www/docs/",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Identification",
+          "type": "Bottom-up EDDS widget",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:46:00.269000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5882239f3cad97b59de",
+        "name": "differentiator",
+        "version": "1.0.1",
+        "title": "Differentiator",
+        "subtitle": "Error Driven Data Science",
+        "description": "Samples can be grouped into different categories, such as time or correctness. Identify the variables that are most \"different\" between groups for further investigation.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#33b42c",
+        "link": "/modules/EDDS/1.0.1/www/docs/identification.html#module-src.hist_errors_features_and_sam_priority",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Identification",
+          "type": "Bottom-up and Top-down tools",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:46:00.440000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5882239f3cad97b59df",
+        "name": "pr-diver",
+        "version": "1.0.1",
+        "title": "PR diver",
+        "subtitle": "Error Driven Data Science",
+        "description": "A complete solution for analyzing measures graphs such as precision-recall. Identifies specific regimes and points of success and failure. Identify which samples are responsible for the success or failure of the model.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#0d22af",
+        "link": "/modules/EDDS/1.0.1/www/docs/identification.html#module-src.pr_diver",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Identification",
+          "type": "Top-down and Bottom-up EDDS widget",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:46:00.608000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5882239f3cad97b59e0",
+        "name": "label-propagation",
+        "version": "1.0.1",
+        "title": "Label propagation",
+        "subtitle": "Error Driven Data Science",
+        "description": "Analyze mislabeled samples based on similarity to other labeled samples and label the unlabeled data based on similar examples.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#d55c73",
+        "link": "/modules/EDDS/1.0.1/www/docs/",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Identification",
+          "type": "Top-down and bottom-up",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:46:00.781000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5882239f3cad97b59e1",
+        "name": "graph-analysis-for-high-dimension-confusion-matrix",
+        "version": "1.0.1",
+        "title": "Graph Analysis for High-Dimension Confusion Matrix",
+        "subtitle": "Error Driven Data Science",
+        "description": "Based on the community structure of the graph created by treating the confusion matrix as an adjacency matrix, identify classes of labels and confusion in predictions.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#02932b",
+        "link": "/modules/EDDS/1.0.1/www/docs/",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Identification",
+          "type": "Top-down EDDS widget",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:46:00.952000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5892239f3cad97b59e2",
+        "name": "dynamic-confusion-matrix",
+        "version": "1.0.1",
+        "title": "Dynamic confusion matrix",
+        "subtitle": "Error Driven Data Science",
+        "description": "Based on the community structure of the graph created by treating the confusion matrix as an adjacency matrix, identify classes of labels and confusion in predictions.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "white",
+        "link": "/modules/EDDS/1.0.1/www/docs/",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Quantification",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:46:01.126000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5892239f3cad97b59e3",
+        "name": "performance-metrics",
+        "version": "1.0.1",
+        "title": "Performance metrics",
+        "subtitle": "Error Driven Data Science",
+        "description": "distribution analysis of the confusion matrix. Detects various types of predictive patterns. Could reveal overfitting or underfitting. Quantify the amount of different erroneous samples using different measures. (Recall, precision, binning, Type 1/2, confusion matrix for multi-class, and many more).",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#6b6ed7",
+        "link": "/modules/EDDS/1.0.1/www/docs/",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Quantification",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:46:01.296000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5892239f3cad97b59e4",
+        "name": "heavy-tail-error-oriented-sampling",
+        "version": "1.0.1",
+        "title": "Heavy-tail Error-oriented Sampling",
+        "subtitle": "Error Driven Data Science",
+        "description": "Measures and test the effects of the base rate on the predictive outcome. Simulate data in real-time - produce a test that is similar to the real data.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#c9a16d",
+        "link": "/modules/EDDS/1.0.1/www/docs/quantification.html#module-src.sampling_methods",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Quantification",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:46:01.465000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5892239f3cad97b59e5",
+        "name": "permutation-noise-sensitivity-analysis",
+        "version": "1.0.1",
+        "title": "Permutation + Noise Sensitivity Analysis",
+        "subtitle": "Error Driven Data Science",
+        "description": "Mimic real-world data behavior, where changes usually occur on only a portion of the data. It identifies samples and features that are more susceptible to a significant change in probability.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#5040e4",
+        "link": "/modules/EDDS/1.0.1/www/docs/simulation.html#module-src.permutation_tests",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Simulation",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:46:01.634000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5892239f3cad97b59e6",
+        "name": "responsive-range-sensitivity-analysis",
+        "version": "1.0.1",
+        "title": "Responsive Range Sensitivity Analysis",
+        "subtitle": "Error Driven Data Science",
+        "description": "Indicates the behavior of the model through the values for each feature. The variability index can also be used to show which features are the most important to the final probability.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#0b354b",
+        "link": "/modules/EDDS/1.0.1/www/docs/simulation.html#module-src.responsive_range",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Simulation",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:46:01.804000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d5892239f3cad97b59e7",
+        "name": "counterfactual-feature-importance-for-classification",
+        "version": "1.0.1",
+        "title": "Counterfactual Feature Importance for classification",
+        "subtitle": "Error Driven Data Science",
+        "description": "The counterfactual algorithms identify the smallest change that needs to be made to a sample in order to obtain a different prediction, using a numerical gradient to a designated likelihood function. Using counterfactual algorithms in supervised learning, we can determine what needs to be changed so that the correct prediction can be made.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#a13466",
+        "link": "/modules/EDDS/1.0.1/www/docs/simulation.html#feature-importance-using-classification-counterfactuals",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Simulation",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:46:01.980000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      },
+      {
+        "id": "62c6d58a2239f3cad97b59e8",
+        "name": "counterfactuals-for-regression",
+        "version": "1.0.1",
+        "title": "Counterfactuals for Regression",
+        "subtitle": "Error Driven Data Science",
+        "description": "The counterfactual algorithms identify the smallest change that needs to be made to a sample in order to obtain a different prediction, using a numerical gradient to a designated likelihood function. In the regression settings, a continuous dependent variable is assumed.",
+        "vendor": "DSG",
+        "icon": "static/img/dsg.png",
+        "color": "#776ba2",
+        "link": "/modules/EDDS/1.0.1/www/docs/",
+        "tags": {
+          "note": "deployed via zip",
+          "sdk": "0.0.1",
+          "category": "Simulation",
+          "bundle": "EDDS/1.0.1"
+        },
+        "config": {
+          "!private": true
+        },
+        "deployed": "2022-07-07T12:46:02.152000",
+        "created_by": {
+          "id": "waad|lYDixhyF30TvkVrZ7wvLCwhadLaY0ejfZzOjkOpa5EI",
+          "name": "DSG Azure"
+        },
+        "modified": null,
+        "modified_by": null
+      }
+    ]
   }

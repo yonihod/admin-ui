@@ -1,6 +1,6 @@
-const Tuples: React.FC<{ label: string, value: string }> = ({label, value}) => {
+const Tuples: React.FC<{ label: string, value: string, classes?: string[] }> = ({label, value, classes}) => {
     return (
-        <div>
+        <div className={classes && classes.join(' ')}>
             <div className="capitalize text-gray-500 text-sm">{label}</div>
             <div className="">{value}</div>
         </div>

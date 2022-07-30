@@ -24,25 +24,8 @@ const spaceSchema =
 
 
 
-export const exampleRouter = createRouter()
-  .query("hello", {
-    input: z
-      .object({
-        text: z.string().nullish(),
-      })
-      .nullish(),
-    resolve({ input }) {
-      return {
-        greeting: `Hello ${input?.text ?? "world"}`,
-      };
-    },
-  })
-  .query("getAll", {
-    async resolve({ ctx }) {
-      return await ctx.prisma.example.findMany();
-  }
-  }).
-  query("spaces", {
+export const spacesRouter = createRouter()
+  .query("spaces", {
     async resolve() {
     try {
       const result = await fetch("http://localhost:3000/repos");
@@ -51,8 +34,8 @@ export const exampleRouter = createRouter()
     } catch (error) {
       console.log(error);
     }
-  }}).
-  query("get-space-by-id", {
+  }})
+  .query("get-space-by-id", {
     input: z.object(
       {
         id: z.string(),
@@ -65,3 +48,14 @@ export const exampleRouter = createRouter()
     }
   }
   )
+  .query("apps", {
+    async resolve() {
+      try {
+        const result = await fetch("http://localhost:3000/apps");
+        const json = await result.json()
+        return await z.array(spaceSchema).parse(json);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+  });

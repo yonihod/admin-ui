@@ -1,7 +1,7 @@
 import { createRouter } from "./context";
 import { z } from "zod";
 
-const spaceSchema = z.array(
+const spaceSchema =
   z.object({
   id: z.string(),
   name: z.string(),
@@ -20,7 +20,8 @@ const spaceSchema = z.array(
   provider: z.object({
     vendor: z.enum(["AWS", "GCP", "AZURE"]),
   }),
-}));
+});
+
 
 
 export const exampleRouter = createRouter()
@@ -46,8 +47,21 @@ export const exampleRouter = createRouter()
     try {
       const result = await fetch("http://localhost:3000/repos");
       const json = await result.json()
-      return await spaceSchema.parse(json);
+      return await z.array(spaceSchema).parse(json);
     } catch (error) {
       console.log(error);
     }
-  }})
+  }}).
+  query("get-space-by-id", {
+    input: z.object(
+      {
+        id: z.string(),
+      }
+    ),
+    async resolve({ input }) {
+      const {id} = input;
+      const res = await fetch(`http://localhost:3000/repos/${id}`);
+      return spaceSchema.parse( await res.json() );
+    }
+  }
+  )

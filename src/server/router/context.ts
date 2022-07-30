@@ -8,10 +8,14 @@ export const createContext = async (
 ) => {
   const req = opts?.req;
   const res = opts?.res;
+  const session = {
+    user: "yoni"
+  }
 
   return {
     req,
     res,
+    session,
     prisma,
   };
 };

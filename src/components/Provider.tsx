@@ -4,7 +4,7 @@ import Azure from "@/assets/azure.svg"
 
 const providersToImg = {
     'AWS': <AWS className="w-6 h-6"/>,
-    'GCP': <GCP/>,
+    'GCP': <GCP className="w-6 h-6"/>,
     'AZURE': <Azure className="w-6 h-6"/>,
 }
 

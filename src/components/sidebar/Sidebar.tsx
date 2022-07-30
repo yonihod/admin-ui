@@ -8,10 +8,10 @@ const Sidebar = () => {
             <div className="sidebar-body">
                 <ul>
                     <li className="nav-item">
-                        <a href="#">Home</a>
+                        <a href="#">Spaces</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#">About</a>
+                        <a href="#">Apps</a>
                     </li>
                     <li className="nav-item">
                         <a href="#">Contact</a>

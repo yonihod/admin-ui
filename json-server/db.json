@@ -29,6 +29,36 @@
           "provider": {
             "vendor": "AZURE"
           }
+        },
+        {
+          "id": "6284a3a32b58161039b309e80",
+          "name": "Eged",
+          "created": "2022-06-18T07:43:28.980000",
+          "created_by": {
+            "id": "waad|mMp991-u1tPCcFen0ygIkyDkyDrNItr7FqpCH76E6Dc",
+            "email": "yoni@datascience.co.il",
+            "name": "Yoni"
+          },
+          "modified": null,
+          "modified_by": null,
+          "provider": {
+            "vendor": "GCP"
+          }
+        },
+        {
+          "id": "6284a3a32b58161039n509e80",
+          "name": "IDF",
+          "created": "2022-06-18T07:43:28.980000",
+          "created_by": {
+            "id": "waad|mMp991-u1tPCcFen0ygIkyDkyDrNItr7FqpCH76E6Dc",
+            "email": "yoni@datascience.co.il",
+            "name": "yoni"
+          },
+          "modified": null,
+          "modified_by": null,
+          "provider": {
+            "vendor": "AWS"
+          }
         }
     ],
     "comments": [
